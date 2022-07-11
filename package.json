@@ -1,0 +1,8 @@
+{
+  "name": "node-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:matheusleal5/node-boilerplate.git",
+  "author": "Matheus Leal <matheusspleal@gmail.com>",
+  "license": "MIT"
+}
