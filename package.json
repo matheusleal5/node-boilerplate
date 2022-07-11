@@ -9,7 +9,7 @@
     "test": "NODE_ENV=test jest --passWithNoTests --silent --noStackTrace --runInBand --no-cache",
     "test:staged": "yarn test --findRelatedTests",
     "test:ci": "yarn test --coverage",
-    "dev": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --ignore-watch node_modules --respawn src/index.js",
+    "dev": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --ignore-watch node_modules --respawn src/index.ts",
     "build": "tsc --build",
     "start": "node dist/index.js"
   },
