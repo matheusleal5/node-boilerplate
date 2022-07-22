@@ -6,6 +6,7 @@
   "author": "Matheus Leal <matheusspleal@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "prepare": "husky install",
     "test": "NODE_ENV=test jest --passWithNoTests --silent --noStackTrace --runInBand --no-cache",
     "test:staged": "yarn test --findRelatedTests",
     "test:ci": "yarn test --coverage",
