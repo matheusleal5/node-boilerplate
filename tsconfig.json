@@ -8,6 +8,7 @@
     "paths": {
       "@": ["./src/*"]
     },
+    "strict": true,
     "esModuleInterop": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
